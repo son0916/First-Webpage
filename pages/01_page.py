@@ -1,2 +1,2 @@
-import steamlit as st
-st.write("안녕"')
+import streamlit as st
+st.write("안녕")
