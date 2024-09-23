@@ -11,6 +11,6 @@ def function():
 st.code(sample_code, language="python")
 st.text("만나서 반갑습니다.")
 st.markdown("**당신**의 **행복**을 지지합니다.")
-st.markdown("당신의 :red[행복]은 **:blue[정해 지지]** 않았습니다.")
-st.markdown(":ornage[$ax=b$]")
+st.markdown("당신의 :red[행복]은 **:blue[정해지지]** 않았습니다.")
+st.markdown(":orange[$ax=b$]")
 st.latex(r"ax=b")
