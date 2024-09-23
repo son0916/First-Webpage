@@ -3,7 +3,7 @@ st.title(" NICE TO MEET YOU")
 st.title("스마일 :sunglasses:")
 st.header("저는 원의 방정식에 대해 설명해 보려고 합니다:sparkles:")
 st.subheader("먼저 원의 정의는 평면 상에서 중심으로부터 거리가 같은 점들의 집합입니다.")
-st.caption("이해했나요?!")
+st.caption("이해했나요?")
 sample_code='''
 def function():
     print("No")
