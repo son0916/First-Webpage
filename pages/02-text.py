@@ -1,16 +1,16 @@
 import streamlit as st
 st.title(" NICE TO MEET YOU")
 st.title("스마일 :sunglasses:")
-st.header("I'm happy to see you :sparkles:")
-st.subheader("I hope you are happy")
-st.caption("안녕하세요!")
+st.header("저는 원의 방정식에 대해 설명해 보려고 합니다:sparkles:")
+st.subheader("먼저 원의 정의는 평면 상에서 중심으로부터 거리가 같은 점들의 집합입니다.")
+st.caption("이해했나요?!")
 sample_code='''
 def function():
-    print("hello")
+    print("No")
 '''
 st.code(sample_code, language="python")
-st.text("만나서 반갑습니다.")
-st.markdown("**당신**의 **행복**을 지지합니다.")
-st.markdown("당신의 :red[행복]은 **:blue[정해지지]** 않았습니다.")
-st.markdown(":orange[$ax=b$]")
-st.latex(r"ax=b")
+st.text("No 말고 Yes라고 대답해주세요.")
+st.markdown("그 다음으로 **원의 방정식의 식**에 대해 설명하자면.")
+st.markdown("원의 방정식의 식은 **:blue[피타고라스 정리]로부터 유도하는데요.")
+st.latex(":red[$x^2+y^2=1$]")
+st.text("입니다.)
