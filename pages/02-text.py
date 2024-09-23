@@ -8,5 +8,5 @@ sample_code='''
 def function():
     print("hello")
 '''
-st.code(sample_code, language='python")
+st.code(sample_code, language="python")
 st.text("일반적인 텍스트를 입력해 보았습니다.")
