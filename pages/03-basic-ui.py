@@ -19,7 +19,7 @@ agree=st.checkbox('동의하십니까?')
 if agree:
   st.write('동의 해주셔서 감사합니다:100:')
 mbti=st.radio('당신의 MBTI는 무엇입니까?',
-              ('ISTJ',  'ENFP', 'tjsxorwl djqtdma'))
+              ('ISTJ',  'ENFP', '선택지 없음'))
 if mbti=='ISTJ':
   st.write('당신은 :blue[현실주의자] 이시네요.')
 elif mbti=='ENFP':
