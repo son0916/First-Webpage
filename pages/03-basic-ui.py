@@ -7,7 +7,7 @@ if button:
   st.write(':blue[지후]에 대해서:sparkles:')
 dataframe=pd.DataFrame({
   'first column':['kor','eng','math','science'],
-  'second column':[F,F,F,F]
+  'second column':['F','F','F','F']
 })
 st.download_button(
   label='지후의 성적표',
