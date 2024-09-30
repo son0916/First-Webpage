@@ -30,7 +30,7 @@ title=st.text_input(
   label='지후가 가고 싶은 여행지가 있나요?',
   placeholder='여행지를 입력해 주세요'
 )
-st.write(f'지후가 선택한 여행지: :violet[{title}]')
+st.write(f'지후의 성적표: :violet[{title}]')
 values=st.slider(
   '범위의 값을 다음과 같이 지정할 수 있어요:sparkles:',
   0.0, 100.0, (25.0, 75.0))
