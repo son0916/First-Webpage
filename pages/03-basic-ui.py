@@ -27,8 +27,8 @@ elif mbti=='ENFP':
 else:
   st.write('당신에 대해 :red[알고 싶어요]:grey_exclamation:')
 title=st.text_input(
-  label='지후가 가고 싶은 여행지가 있나요?',
-  placeholder='여행지를 입력해 주세요'
+  label='지후의 해당 과목 성적을 알고 싶은 과목을 선택해 주세요?',
+  placeholder='과목을 입력해 주세요'
 )
 st.write(f'지후의 성적표: :violet[{title}]')
 values=st.slider(
