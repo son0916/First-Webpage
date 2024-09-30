@@ -17,7 +17,7 @@ st.download_button(
 )
 agree=st.checkbox('지후의 성적표 서명해주세요.')
 if agree:
-  st.write('서명해주셔서 감사합니다:100:')
+  st.write('서명해주셔서 감사합니다:0:')
 mbti=st.radio('당신의 MBTI는 무엇입니까?',
               ('ISTJ',  'ENFP', '선택지 없음'))
 if mbti=='ISTJ':
