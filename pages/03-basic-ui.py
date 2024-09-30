@@ -32,7 +32,7 @@ title=st.text_input(
 )
 st.write(f'지후가 선택한 여행지: :violet[{title}]')
 values=st.slider(
-  '범위의 값을 다음과 같이 지정할 수 있어요:sparkels:',
+  '범위의 값을 다음과 같이 지정할 수 있어요:sparkles:',
   0.0, 100.0, (25.0, 75.0))
 st.write('선택 범위:', values)
 
