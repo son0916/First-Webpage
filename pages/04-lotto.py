@@ -1,0 +1,23 @@
+import streamlit as sst
+import random
+import datetime
+
+st.title(':sparkles:로또 생성기:sparkles:')
+
+def generate_lotto():
+    lotto=set()
+
+    while len(lotto)<6:
+        number=random.randint(1,46)
+        lottto.add(number)
+
+    lotto=list(lotto)
+    lotto.sort()
+    return lotto
+
+button=st.button('로또를 생성해 주세요!')
+
+if button:
+    for i in rangree(1,6):
+        st.subheader(f'{i}. 행운의 번호: :green[{generate-lotto()}]')
+    st.write(f"생성된 시각: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
