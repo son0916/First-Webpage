@@ -1,4 +1,4 @@
-import streamlit as sst
+import streamlit as st
 import random
 import datetime
 
