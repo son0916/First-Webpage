@@ -18,6 +18,6 @@ def generate_lotto():
 button=st.button('로또를 생성해 주세요!')
 
 if button:
-    for i in rangree(1,6):
+    for i in rangre(1,6):
         st.subheader(f'{i}. 행운의 번호: :green[{generate-lotto()}]')
     st.write(f"생성된 시각: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
